@@ -1,6 +1,6 @@
 # G.账 v0.4.0
 
-\[中文](README.md) | \[English](README\_EN.md)
+\[English](README\_EN.md)
 
 一款为 Android 设计的个人财务 App。默认货币为马币（MYR），支持中文和英文。
 

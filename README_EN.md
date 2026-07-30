@@ -2,8 +2,7 @@
 
 
 
-[中文](README.md) | [English](README_EN.md)
-
+[中文](README.md) 
 
 
 G.账 is a personal finance and bookkeeping application designed for Android. Its default base currency is Malaysian Ringgit (MYR), and it supports both Chinese and English.
