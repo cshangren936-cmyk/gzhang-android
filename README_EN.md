@@ -1,4 +1,4 @@
-\# G.账 v0.4.0
+# G.账 v0.4.0
 
 
 
@@ -10,227 +10,227 @@ G.账 is a personal finance and bookkeeping application designed for Android. It
 
 
 
-\## Features
+## Features
 
 
 
-\### Bookkeeping
+### Bookkeeping
 
 
 
-\* Income, expenses, account transfers, and transfer fees
+- Income, expenses, account transfers, and transfer fees
 
-\* Built-in calculator for addition, subtraction, multiplication, and division
+- Built-in calculator for addition, subtraction, multiplication, and division
 
-\* Remembers the unallocated balance when splitting a payment into multiple records
+- Remembers the unallocated balance when splitting a payment into multiple records
 
-\* Itemized bills with individual item names, quantities, and prices
+- Itemized bills with individual item names, quantities, and prices
 
-\* Receipt, invoice, and product screenshot attachments
+- Receipt, invoice, and product screenshot attachments
 
-\* Custom subcategories and multiple tags
+- Custom subcategories and multiple tags
 
-\* Partial and full refunds linked to the original transaction
+- Partial and full refunds linked to the original transaction
 
-\* Detailed transaction viewing and editing
+- Detailed transaction viewing and editing
 
-\* Multiple bookkeeping ledgers
+- Multiple bookkeeping ledgers
 
-\* Advanced search by keyword, date range, account, category, and amount
+- Advanced search by keyword, date range, account, category, and amount
 
 
 
-\### Accounts and Liabilities
+### Accounts and Liabilities
 
 
 
-\* Cash, bank, e-wallet, savings, credit card, and Buy Now Pay Later accounts
+- Cash, bank, e-wallet, savings, credit card, and Buy Now Pay Later accounts
 
-\* Wallet-style stacked account cards
+- Wallet-style stacked account cards
 
-\* Manual account balance adjustment with an adjustment record
+- Manual account balance adjustment with an adjustment record
 
-\* Credit limits, outstanding balances, instalments, due dates, and repayments
+- Credit limits, outstanding balances, instalments, due dates, and repayments
 
-\* Tracks “Money owed to me” and “Money I owe”
+- Tracks “Money owed to me” and “Money I owe”
 
-\* Partial debt repayments and one-tap settlement
+- Partial debt repayments and one-tap settlement
 
-\* Automatic net worth calculation, including personal debts and credit liabilities
+- Automatic net worth calculation, including personal debts and credit liabilities
 
-\* One-tap hiding of sensitive account balances
+- One-tap hiding of sensitive account balances
 
 
 
-\### Recurring Payments and Instalments
+### Recurring Payments and Instalments
 
 
 
-\* Monthly recurring payment rules for rent, subscriptions, utilities, and other bills
+- Monthly recurring payment rules for rent, subscriptions, utilities, and other bills
 
-\* Automatically creates pending entries for confirmation
+- Automatically creates pending entries for confirmation
 
-\* Credit card and BNPL instalment schedules
+- Credit card and BNPL instalment schedules
 
-\* Principal and service fee distribution across future months
+- Principal and service fee distribution across future months
 
-\* Android system notifications for recurring payments, instalments, and due dates
+- Android system notifications for recurring payments, instalments, and due dates
 
 
 
-\### Split Bills and Group Settlement
+### Split Bills and Group Settlement
 
 
 
-\* Supports different consumption and payment amounts for every participant
+- Supports different consumption and payment amounts for every participant
 
-\* Tax, service charges, and discounts are distributed according to actual consumption
+- Tax, service charges, and discounts are distributed according to actual consumption
 
-\* Generates a minimum-transfer settlement plan
+- Generates a minimum-transfer settlement plan
 
-\* Each participant may use different currencies for consumption and payment
+- Each participant may use different currencies for consumption and payment
 
-\* Settlement history with editing, deletion, copying, and system sharing
+- Settlement history with editing, deletion, copying, and system sharing
 
-\* Suitable for group meals and multi-person trips
+- Suitable for group meals and multi-person trips
 
 
 
-\### Multiple Currencies
+### Multiple Currencies
 
 
 
-\* Supports MYR, USD, SGD, JPY, CNY, EUR, GBP, AUD, THB, and other currencies
+- Supports MYR, USD, SGD, JPY, CNY, EUR, GBP, AUD, THB, and other currencies
 
-\* Converts foreign transactions into the selected base currency
+- Converts foreign transactions into the selected base currency
 
-\* Retrieves the latest available reference exchange rates
+- Retrieves the latest available reference exchange rates
 
-\* Stores the most recently downloaded rates for offline use
+- Stores the most recently downloaded rates for offline use
 
-\* Multi-currency conversion for split-bill settlement
+- Multi-currency conversion for split-bill settlement
 
 
 
-\### Receipt Recognition
+### Receipt Recognition
 
 
 
-\* Captures or selects receipt images
+- Captures or selects receipt images
 
-\* On-device Android recognition for merchants, dates, totals, taxes, service charges, and items
+- On-device Android recognition for merchants, dates, totals, taxes, service charges, and items
 
-\* Local rule-based category suggestions
+- Local rule-based category suggestions
 
-\* Android Quick Settings tile for screenshot recognition
+- Android Quick Settings tile for screenshot recognition
 
-\* Recognition results are placed into pending entries for confirmation
+- Recognition results are placed into pending entries for confirmation
 
-\* Recognition does not directly change account balances without confirmation
+- Recognition does not directly change account balances without confirmation
 
 
 
-\### Electronic Assets
+### Electronic Assets
 
 
 
-\* Records asset name, purchase amount, purchase date, warranty, serial number, configuration, and notes
+- Records asset name, purchase amount, purchase date, warranty, serial number, configuration, and notes
 
-\* Links assets to their original transaction and receipt
+- Links assets to their original transaction and receipt
 
-\* Calculates days used and average daily cost
+- Calculates days used and average daily cost
 
-\* Displays warranty days remaining
+- Displays warranty days remaining
 
-\* Custom daily-cost target and payback status
+- Custom daily-cost target and payback status
 
-\* Warranty expiration reminders
+- Warranty expiration reminders
 
-\* Records maintenance, repairs, accessories, residual value, sale amount, and sale date
+- Records maintenance, repairs, accessories, residual value, sale amount, and sale date
 
-\* Complete asset lifecycle history
+- Complete asset lifecycle history
 
 
 
-\### Reports
+### Reports
 
 
 
-\* Monthly income, expenses, and balance
+- Monthly income, expenses, and balance
 
-\* Spending by category
+- Spending by category
 
-\* Monthly expense ranking
+- Monthly expense ranking
 
-\* Spending calendar
+- Spending calendar
 
-\* Monthly category budgets and overspending indicators
+- Monthly category budgets and overspending indicators
 
-\* Month-over-month comparisons
+- Month-over-month comparisons
 
-\* Year-over-year comparisons
+- Year-over-year comparisons
 
-\* Total assets, liabilities, personal debts, and net worth
+- Total assets, liabilities, personal debts, and net worth
 
 
 
-\### Backup and Synchronization
+### Backup and Synchronization
 
 
 
-\* Complete JSON backup and restoration
+- Complete JSON backup and restoration
 
-\* CSV transaction export
+- CSV transaction export
 
-\* Receipt images are stored in an IndexedDB attachment library
+- Receipt images are stored in an IndexedDB attachment library
 
-\* Portable backups include image attachments
+- Portable backups include image attachments
 
-\* Manual WebDAV backup upload and download
+- Manual WebDAV backup upload and download
 
-\* Can use a personal WebDAV location as a multi-device or shared bookkeeping space
+- Can use a personal WebDAV location as a multi-device or shared bookkeeping space
 
-\* Local member and role information for shared ledgers
+- Local member and role information for shared ledgers
 
 
 
-\### AI Assistant
+### AI Assistant
 
 
 
-\* Configurable Chat Completions-compatible endpoint
+- Configurable Chat Completions-compatible endpoint
 
-\* User-configurable model name and API key
+- User-configurable model name and API key
 
-\* Monthly income and spending analysis
+- Monthly income and spending analysis
 
-\* Disabled by default
+- Disabled by default
 
-\* Data is sent only when the user manually requests an analysis
+- Data is sent only when the user manually requests an analysis
 
-\* Original receipt images are not sent to the configured AI service
+- Original receipt images are not sent to the configured AI service
 
 
 
-\### Interface
+### Interface
 
 
 
-\* Warm journal-style design with grid paper, paper tape, and light hand-drawn details
+- Warm journal-style design with grid paper, paper tape, and light hand-drawn details
 
-\* Wallet-style account page
+- Wallet-style account page
 
-\* Chinese and English language switching
+- Chinese and English language switching
 
-\* Light and dark themes
+- Light and dark themes
 
-\* Portrait orientation only
+- Portrait orientation only
 
-\* The top-left brand mark displays only `G.`
+- The top-left brand mark displays only `G.`
 
 
 
-\## Data and Network Usage
+## Data and Network Usage
 
 
 
@@ -254,21 +254,21 @@ Android’s screen-capture privacy mechanism applies to the Quick Settings recog
 
 
 
-\## Android Build Requirements
+## Android Build Requirements
 
 
 
-\* Android Studio with Android SDK
+- Android Studio with Android SDK
 
-\* Node.js 20 or later
+- Node.js 20 or later
 
-\* JDK 17
+- JDK 17
 
-\* Internet connection for the first Gradle dependency download
+- Internet connection for the first Gradle dependency download
 
 
 
-\## Build Instructions
+## Build Instructions
 
 
 
@@ -296,9 +296,9 @@ In Android Studio:
 
 2\. Select an emulator or connected Android device.
 
-3\. Use \*\*Run\*\* to test the application.
+3\. Use --Run-- to test the application.
 
-4\. To generate an APK, select \*\*Build > Build APK(s)\*\*.
+4\. To generate an APK, select --Build > Build APK(s)--.
 
 
 
@@ -310,7 +310,7 @@ The first Android build may download ML Kit and WorkManager dependencies. ML Kit
 
 
 
-\## Quick Settings Screenshot Recognition
+## Quick Settings Screenshot Recognition
 
 
 
@@ -326,7 +326,7 @@ The first Android build may download ML Kit and WorkManager dependencies. ML Kit
 
 6\. Tap the tile and approve the Android screen-capture request.
 
-7\. Open G.账 and confirm the result under \*\*More > Pending Entries\*\*.
+7\. Open G.账 and confirm the result under --More > Pending Entries--.
 
 
 
@@ -334,7 +334,7 @@ Android 14 and later require screen-capture permission for every capture session
 
 
 
-\## Testing
+## Testing
 
 
 
@@ -354,33 +354,33 @@ The automated tests cover:
 
 
 
-\* BNPL purchases and repayments
+- BNPL purchases and repayments
 
-\* Account balance calculations
+- Account balance calculations
 
-\* Refund handling
+- Refund handling
 
-\* Recurring and instalment schedules
+- Recurring and instalment schedules
 
-\* Bookkeeping calculator
+- Bookkeeping calculator
 
-\* Unequal split-bill settlements
+- Unequal split-bill settlements
 
-\* Proportional tax and service-charge distribution
+- Proportional tax and service-charge distribution
 
-\* Minimum-transfer settlement
+- Minimum-transfer settlement
 
-\* Multi-currency conversion
+- Multi-currency conversion
 
-\* Electronic asset daily cost and warranty countdown
+- Electronic asset daily cost and warranty countdown
 
-\* Receipt text parsing
+- Receipt text parsing
 
-\* Automatic category suggestions
+- Automatic category suggestions
 
 
 
-\## AI Configuration
+## AI Configuration
 
 
 
@@ -408,7 +408,7 @@ Do not commit API keys, WebDAV passwords, or personal bookkeeping backups to Git
 
 
 
-\## v0.4 Beta Notes
+## v0.4 Beta Notes
 
 
 
@@ -428,19 +428,19 @@ Future versions will focus on:
 
 
 
-\* Automatic synchronization conflict handling
+- Automatic synchronization conflict handling
 
-\* Native Android device compatibility testing
+- Native Android device compatibility testing
 
-\* UI and interaction refinements
+- UI and interaction refinements
 
-\* Natural-language AI bookkeeping
+- Natural-language AI bookkeeping
 
-\* Improved multi-user collaboration
+- Improved multi-user collaboration
 
 
 
-\## Privacy
+## Privacy
 
 
 
@@ -448,19 +448,19 @@ This project may process sensitive personal financial information. Never upload 
 
 
 
-\* Personal bookkeeping backup files
+- Personal bookkeeping backup files
 
-\* Receipt images containing personal information
+- Receipt images containing personal information
 
-\* AI API keys
+- AI API keys
 
-\* WebDAV passwords
+- WebDAV passwords
 
-\* Android signing keystores
+- Android signing keystores
 
-\* `local.properties`
+- `local.properties`
 
-\* `google-services.json`
+- `google-services.json`
 
 
 
