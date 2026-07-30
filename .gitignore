@@ -1,0 +1,52 @@
+# Node.js dependencies
+node_modules/
+
+# Generated web files
+dist/
+android/app/src/main/assets/public/
+android/app/src/main/assets/capacitor.config.json
+android/app/src/main/assets/capacitor.plugins.json
+android/app/src/main/res/xml/config.xml
+android/capacitor-cordova-android-plugins/
+
+# Android and Gradle build files
+.gradle/
+**/.gradle/
+build/
+**/build/
+local.properties
+**/local.properties
+*.apk
+*.aab
+*.aar
+*.dex
+*.class
+
+# Android Studio
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Passwords and private configuration
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+**/google-services.json
+
+# Personal bookkeeping backups
+*jizhang-backup*.json
+*gzhang-backup*.json
+
+# Packaged releases
+releases/
+*.zip
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db

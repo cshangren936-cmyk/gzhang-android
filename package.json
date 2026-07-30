@@ -1,0 +1,33 @@
+{
+  "name": "jizhang-offline",
+  "private": true,
+  "version": "0.4.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --import tsx --test src/core/*.test.ts",
+    "android:sync": "npm run build && cap sync android",
+    "android:open": "cap open android",
+    "android:assets": "node scripts/generate-android-assets.mjs"
+  },
+  "dependencies": {
+    "@capacitor/android": "8.4.2",
+    "@capacitor/core": "8.4.2",
+    "lucide-react": "1.27.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "8.4.2",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "6.0.4",
+    "sharp": "0.35.3",
+    "tsx": "^4.20.0",
+    "typescript": "7.0.2",
+    "vite": "8.1.5"
+  }
+}

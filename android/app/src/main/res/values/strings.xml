@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">G.账</string>
+    <string name="title_activity_main">G.账</string>
+    <string name="capture_tile_label">G.账识别</string>
+    <string name="capture_channel">收据识别</string>
+    <string name="capture_running">正在识别截图…</string>
+    <string name="capture_ready">识别完成，点击确认账目</string>
+    <string name="capture_failed">未能识别截图，请重试</string>
+    <string name="package_name">my.jizhang.offline</string>
+    <string name="custom_url_scheme">my.jizhang.offline</string>
+</resources>
