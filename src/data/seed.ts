@@ -1,5 +1,5 @@
+
 import type { AppData, Category } from "../types";
-import { currentMonth, localDate } from "../core/date";
 
 export const defaultCategories: Category[] = [
   { id: "food", kind: "expense", zh: "餐饮", en: "Food", icon: "Utensils", color: "#FF8C61" },
@@ -20,10 +20,11 @@ export const defaultCategories: Category[] = [
 
 export function createInitialData(): AppData {
   const now = new Date().toISOString();
-  const today = localDate();
   const bookId = "book_personal";
+
   return {
     version: 4,
+
     settings: {
       language: "zh",
       theme: "light",
@@ -33,12 +34,14 @@ export function createInitialData(): AppData {
       hideAmounts: false,
       warrantyReminderDays: 30,
     },
+
     aiSettings: {
       enabled: false,
       endpoint: "",
       model: "",
       apiKey: "",
     },
+
     syncSettings: {
       provider: "none",
       endpoint: "",
@@ -47,7 +50,9 @@ export function createInitialData(): AppData {
       remotePath: "gzhang-backup.json",
       autoSync: false,
     },
+
     exchangeRates: null,
+
     books: [
       {
         id: bookId,
@@ -56,6 +61,7 @@ export function createInitialData(): AppData {
         createdAt: now,
       },
     ],
+
     sharedMembers: [
       {
         id: "member_owner",
@@ -66,13 +72,14 @@ export function createInitialData(): AppData {
         createdAt: now,
       },
     ],
+
     accounts: [
       {
         id: "account_cash",
         bookId,
         name: "现金",
         type: "cash",
-        openingBalance: 300,
+        openingBalance: 0,
         color: "#31C7A4",
         createdAt: now,
       },
@@ -81,7 +88,7 @@ export function createInitialData(): AppData {
         bookId,
         name: "银行账户",
         type: "bank",
-        openingBalance: 2500,
+        openingBalance: 0,
         color: "#6C5CE7",
         createdAt: now,
       },
@@ -91,13 +98,15 @@ export function createInitialData(): AppData {
         name: "先用后付",
         type: "bnpl",
         openingBalance: 0,
-        creditLimit: 1500,
+        creditLimit: 0,
         dueDay: 15,
         color: "#FF8C61",
         createdAt: now,
       },
     ],
+
     categories: defaultCategories,
+
     subcategories: [
       { id: "sub_takeaway", categoryId: "food", zh: "外卖", en: "Delivery" },
       { id: "sub_restaurant", categoryId: "food", zh: "餐馆", en: "Restaurant" },
@@ -106,41 +115,11 @@ export function createInitialData(): AppData {
       { id: "sub_fuel", categoryId: "transport", zh: "油费", en: "Fuel" },
       { id: "sub_subscription", categoryId: "bills", zh: "订阅", en: "Subscription" },
     ],
+
     tags: [],
-    transactions: [
-      {
-        id: "welcome_income",
-        bookId,
-        type: "income",
-        amount: 3100,
-        accountId: "account_bank",
-        categoryId: "salary",
-        date: `${currentMonth()}-01`,
-        note: "示例：薪资",
-        createdAt: now,
-      },
-      {
-        id: "welcome_expense",
-        bookId,
-        type: "expense",
-        amount: 12.5,
-        accountId: "account_cash",
-        categoryId: "food",
-        date: today,
-        note: "示例：午餐",
-        createdAt: now,
-      },
-    ],
+    transactions: [],
     bnplPlans: [],
-    budgets: [
-      {
-        id: "budget_food",
-        bookId,
-        month: currentMonth(),
-        categoryId: "food",
-        amount: 500,
-      },
-    ],
+    budgets: [],
     debts: [],
     debtPayments: [],
     recurringRules: [],
