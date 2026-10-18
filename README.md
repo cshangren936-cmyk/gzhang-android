@@ -1,4 +1,4 @@
-# G.账 v0.4.0
+# G.账 v0.4.0 (开发中）
 
 [English](README_EN.md)
 
